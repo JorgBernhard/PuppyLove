@@ -1,0 +1,61 @@
+.Page-contact {
+  display: flex;
+  flex-direction: column;
+  background-image: url('../../assets/cao-gato.png');
+ background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+.Container-contact {
+  display: flex;
+  flex-direction: row;  
+  justify-content: center;
+  align-items: center;
+  
+}
+.Contact {
+
+  font-family: 'Aboreto', cursive;
+  font-weight: 700;
+  font-size: 3rem;
+  color: rgb(255, 255, 255);
+  margin-top: -20rem;
+
+  }
+.Contato {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
+
+.Info {
+  width: 30rem;
+  font-family: 'Aboreto', cursive;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: gray;
+  margin-left: -35rem;
+  margin-top: 20rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 2rem;
+  border: 0.1rem solid gray;
+
+  box-shadow: 1rem 1rem 2rem 0rem gray;
+  
+}
+.logos {
+  display: flex;
+  flex-direction: row;
+}
+
+.Mapa {
+  width: 80rem;
+  height: 50rem;
+  margin-left: 15rem;
+  margin-top: 20rem;
+  border-radius: 2rem;
+  border: 0.1rem solid gray;
+  opacity: 0.8;
+  box-shadow: 1rem 1rem 2rem 0rem gray;
+}
