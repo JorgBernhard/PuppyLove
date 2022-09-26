@@ -1,21 +1,19 @@
 .Head   {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     position: fixed;
     width: 100vw;
     height: 80px;
     background-color: rgb(255, 255, 255);
     z-index: 10;
+    box-shadow: 0rem 0rem 1rem 0rem gray;
 }
 @media only screen and (max-width: 1400px) {
     .Head {
-        height: 60px;
+        height: 50px;
      }}
-.Head {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0rem 0rem 1rem 0rem gray;
-}
 .Logo {
     width: 300px;
     height: 100px;
@@ -24,8 +22,10 @@
 }
 @media only screen and (max-width: 1400px) {
     .Logo {
-        width: 60px;
-        height: 30px;
+        width: 150px;
+        height: 50px;
+        margin-left: 2rem;
+        margin-top: 1rem;
      }}
 .Links {
     margin-top: 0rem;
@@ -41,7 +41,7 @@ a {
 }
 @media only screen and (max-width: 1400px) {
     a {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
      }}
 a:hover {
     color: rgb(17, 164, 223);

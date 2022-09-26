@@ -12,9 +12,10 @@
   position: absolute;
   width: 100%;
   height: 70%;
-  margin-top: 8rem;
+  margin-top: 5rem;
 
 }
+
 .Text {
   display: flex;
   flex-direction: column;
@@ -48,6 +49,13 @@
   margin-top: 38rem;
   justify-content: center;
 }
+@media only screen and (max-width: 1400px) {
+  .container-bottom {
+    display: flex;
+    flex-direction: row;
+    margin-top: 16rem;
+    justify-content: center;
+   }}
 .Fotos01 {
   width: 300px;
   height: 150px;
@@ -57,6 +65,16 @@
   border: 0.1rem solid gray;
   box-shadow: 0rem 0rem 1rem 0rem gray;
 }
+@media only screen and (max-width: 1400px) {
+  .Fotos01 {
+    width: 200px;
+    height: 100px;
+    margin-right: 3rem;
+    z-index: 2;
+    border-radius: 1rem;
+    border: 0.1rem solid gray;
+    box-shadow: 0rem 0rem 1rem 0rem gray;
+   }}
 .Fotos02 {
   width: 300px;
   height: 150px;
@@ -66,6 +84,16 @@
   border: 0.1rem solid gray;
   box-shadow: 0rem 0rem 1rem 0rem gray;
 }
+@media only screen and (max-width: 1400px) {
+  .Fotos02 {
+    width: 200px;
+    height: 100px;
+    margin-right: 3rem;
+    z-index: 2;
+    border-radius: 1rem;
+    border: 0.1rem solid gray;
+    box-shadow: 0rem 0rem 1rem 0rem gray;
+   }}
 .Fotos03 {
   width: 300px;
   height: 150px;
@@ -75,6 +103,16 @@
   border: 0.1rem solid gray;
   box-shadow: 0rem 0rem 1rem 0rem gray;
 }
+@media only screen and (max-width: 1400px) {
+  .Fotos03 {
+    width: 200px;
+    height: 100px;
+    margin-right: 3rem;
+    z-index: 2;
+    border-radius: 1rem;
+    border: 0.1rem solid gray;
+    box-shadow: 0rem 0rem 1rem 0rem gray;
+   }}
 .Fotos04 {
   width: 300px;
   height: 150px;
@@ -84,6 +122,16 @@
   border: 0.1rem solid gray;
   box-shadow: 0rem 0rem 1rem 0rem gray;
 }
+@media only screen and (max-width: 1400px) {
+  .Fotos04 {
+    width: 200px;
+    height: 100px;
+    margin-right: 3rem;
+    z-index: 2;
+    border-radius: 1rem;
+    border: 0.1rem solid gray;
+    box-shadow: 0rem 0rem 1rem 0rem gray;
+   }}
 .Fotos05 {
   width: 300px;
   height: 150px;
@@ -93,3 +141,13 @@
   border: 0.1rem solid gray;
   box-shadow: 0rem 0rem 1rem 0rem gray;
 }
+@media only screen and (max-width: 1400px) {
+  .Fotos05 {
+    width: 200px;
+    height: 100px;
+    margin-right: 3rem;
+    z-index: 2;
+    border-radius: 1rem;
+    border: 0.1rem solid gray;
+    box-shadow: 0rem 0rem 1rem 0rem gray;
+   }}
