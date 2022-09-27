@@ -23,7 +23,7 @@ function Design() {
     <div id='design'>
         <div className="Page-design">
           <div className="Container-design">
-             <h3 className="Design">Nossos Bixinhos</h3>
+             <h3 className="Design">Nossos Bichinhos</h3>
              <Swiper
                 slidesPerView={window.screen.width < 800 ? 1 : 3}
                 spaceBetween={20}

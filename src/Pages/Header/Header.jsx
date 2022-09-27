@@ -10,7 +10,7 @@ function Header() {
             <div className="Links">
                 <a href='#main'>Puppy-Home</a>
                 <a href='#contact' >Localização</a>
-                <a href='#design' >Bixinhos</a>
+                <a href='#design' >Bichinhos</a>
                 <a href='#aboutme' >Sabedoria</a>
             </div>
         </div>
